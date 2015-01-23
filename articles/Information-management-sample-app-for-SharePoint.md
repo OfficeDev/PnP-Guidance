@@ -1,6 +1,3 @@
-Title: Information management sample app for SharePointDescription: As part of your Enterprise Content Management (ECM) strategy, you can get or set site policies to manage the lifecycle of your SharePoint site.
-ms.ContentId: fd0d5edd-550e-4ed9-8d45-5029d1314905
-
 
 # Information management sample app for SharePoint
 As part of your Enterprise Content Management (ECM) strategy, you can get or set site policies to manage the lifecycle of your SharePoint site.
@@ -9,7 +6,7 @@ As part of your Enterprise Content Management (ECM) strategy, you can get or set
  _**Applies to:** Office 365 | SharePoint 2013 | SharePoint Online_
 
     
-
+The [Core.InformationManagement](https://github.com/OfficeDev/PnP/tree/dev/Scenarios/Core.InformationManagement) sample shows you how to use an ASP.NET provider-hosted SharePoint app to get and set a site policy on a site. Use this solution if you want to:
     
 
 - Apply policy settings during your custom site provisioning process. 
@@ -18,14 +15,11 @@ As part of your Enterprise Content Management (ECM) strategy, you can get or set
     
 - Create a custom expiration formula. 
     
- **Contribute to this content**
-
-    
 
 ## Before you begin
 <a name="sectionSection0"> </a>
 
-To get started, download the  [Core.InformationManagement ](https://github.com/OfficeDev/PnP/tree/dev/Scenarios/Core.InformationManagement) sample app from the [Office 365 Developer patterns and practices](https://github.com/OfficeDev/PnP/tree/dev) project on GitHub.
+To get started, download the  [Core.InformationManagement](https://github.com/OfficeDev/PnP/tree/dev/Scenarios/Core.InformationManagement) sample app from the [Office 365 Developer patterns and practices](https://github.com/OfficeDev/PnP/tree/dev) project on GitHub.
 
 We recommend that you create at least one site policy, and assign it to your site before you run this app. Otherwise, the app will start without displaying sample data. For more information, see  [Overview of site policies in SharePoint 2013](http://technet.microsoft.com/en-US/library/jj219569%28v=office.15%29.aspx).
 
@@ -47,7 +41,9 @@ When you start the app, the start page displays the following information, as sh
 
 **Figure 1. Information Management app start page**
 
-![Screenshot of the app start page, with site policy closure and expiration values, available and applied site policies, and other policies to apply highlighted.](..\..\includes\media\8c5f39f7-700d-4300-bcc4-9ed9edf0e155.png)From your SharePoint site, you can go to the app, which runs on the remote host, by choosing  **Recent** > **Core.InformationManagement**. To return to your SharePoint site, choose  **Back to Site**.
+![Screenshot of the app start page, with site policy closure and expiration values, available and applied site policies, and other policies to apply highlighted.](..\..\includes\media\8c5f39f7-700d-4300-bcc4-9ed9edf0e155.png)
+
+From your SharePoint site, you can go to the app, which runs on the remote host, by choosing  **Recent** > **Core.InformationManagement**. To return to your SharePoint site, choose  **Back to Site**.
 
 The Pages\Default.aspx.cs file in the Core.InformationManagementWeb project contains the code for the page displayed in Figure 1. 
 
@@ -148,7 +144,7 @@ if (drlPolicies.SelectedItem != null)
 <a name="bk_addresources"> </a>
 
 
--  [Enterprise Content Management solutions for SharePoint 2013 and SharePoint Online](..\api\Enterprise-Content-Management-solutions-for-SharePoint-2013-and-SharePoint-Online.md)
+-  [Enterprise Content Management solutions for SharePoint 2013 and SharePoint Online](https://msdn.microsoft.com/en-us/library/dn904530(v=office.15).aspx)
     
 -  [OfficeDevPnP.Core sample](https://github.com/OfficeDev/PnP/tree/master/OfficeDevPnP.Core)
     
