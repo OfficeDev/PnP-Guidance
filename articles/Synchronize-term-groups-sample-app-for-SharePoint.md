@@ -28,7 +28,7 @@ Before you run this app, you'll need permission to access the term store in the 
 
 **Figure 1. Assigning permissions to the term store in the SharePoint admin center**
 
-![Screenshot that shows the SharePoint admin center, with the term store, the taxonomy term store search box, and the term store administrators boxes highlighted.](..\..\includes\media\93a19898-6ae2-4176-b030-2546f4c86c5c.png)To assign permissions to the term store:
+![Screenshot that shows the SharePoint admin center, with the term store, the taxonomy term store search box, and the term store administrators boxes highlighted.](media/93a19898-6ae2-4176-b030-2546f4c86c5c.png)To assign permissions to the term store:
 
 
 
@@ -65,12 +65,12 @@ When you start the app, you see a console application, as shown in Figure 2. You
 
 **Figure 2. Core.MMSSync console application**
 
-![Screenshot of the console application prompting for information to be entered.](..\..\includes\media\1ef0e4f4-6f79-46b0-83d3-bdf9d87ccad9.png)After you select your scenario, enter the name of the term group you want to synchronize from your source to your target managed metadata service, as shown in Figure 3. For example, you might enter Enterprise.
+![Screenshot of the console application prompting for information to be entered.](media/1ef0e4f4-6f79-46b0-83d3-bdf9d87ccad9.png)After you select your scenario, enter the name of the term group you want to synchronize from your source to your target managed metadata service, as shown in Figure 3. For example, you might enter Enterprise.
 
 
 **Figure 3. Term groups in the managed metadata service**
 
-![Screenshot of the taxonomy term store drop-down list.](..\..\includes\media\5202fd88-4f2f-4b68-8083-165e6702bc86.png)
+![Screenshot of the taxonomy term store drop-down list.](media/5202fd88-4f2f-4b68-8083-165e6702bc86.png)
 ### Scenario 1 - Move term group
 
 When you select  **Move Term Group**, the app prompts you to enter a term group to synchronize and then calls the  **CopyNewTermGroups** method in MMSSyncManager.cs. **CopyNewTermGroups** then does the following to copy a term group from the source term store to the target term store:

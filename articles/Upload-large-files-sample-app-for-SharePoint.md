@@ -35,7 +35,7 @@ When you start this app, a console application appears, as shown in Figure 1. Yo
 
 **Figure 1. Core.LargeFileUpload console application**
 
-![Screenshot that shows a console application with user name and password logon credentials.](..\..\includes\media\09de7f68-b021-4ca8-ae82-0ca26427b856.png)After authentication, the console application displays an error, as shown in Figure 2. The error occurs when the  **UploadDocumentContent** method in FileUploadService.cs tries to use the **FileCreationInformation.Content** property to upload a file that is larger than 2 MB, and an exception is thrown.
+![Screenshot that shows a console application with user name and password logon credentials.](media/09de7f68-b021-4ca8-ae82-0ca26427b856.png)After authentication, the console application displays an error, as shown in Figure 2. The error occurs when the  **UploadDocumentContent** method in FileUploadService.cs tries to use the **FileCreationInformation.Content** property to upload a file that is larger than 2 MB, and an exception is thrown.
 
 
     
@@ -44,7 +44,7 @@ When you start this app, a console application appears, as shown in Figure 1. Yo
 
 **Figure 2. Exception that is thrown when using the FileCreationInformation.Content property to upload files larger than 2 MB**
 
-![Screenshot of the error message that appears when an attempt is made to upload a file larger than 2 MBs.](..\..\includes\media\ccc6e053-aff4-43e3-9d8a-24a345aaf92d.png)
+![Screenshot of the error message that appears when an attempt is made to upload a file larger than 2 MBs.](media/ccc6e053-aff4-43e3-9d8a-24a345aaf92d.png)
     
 **Note**  The code in this article is provided as-is, without warranty of any kind, either express or implied, including any implied warranties of fitness for a particular purpose, merchantability, or non-infringement.
 
@@ -153,7 +153,7 @@ After the console application runs, you can go to the Docs document library by c
 
 **Figure 3. Document document library with two large files**
 
-![Screenshot of a document library that includes two large files.](..\..\includes\media\51902366-2d57-4b19-81c2-eb4047b868bc.png)
+![Screenshot of a document library that includes two large files.](media/51902366-2d57-4b19-81c2-eb4047b868bc.png)
 
 
 ## Additional resources

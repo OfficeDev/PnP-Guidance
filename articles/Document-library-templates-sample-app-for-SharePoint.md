@@ -59,7 +59,7 @@ When you start this app, the start page displays as shown in Figure 1. The ECM.D
 
 **Figure 1. Start page of the ECM.DocumentLibraries app**
 
-![Screenshot that shows the ECM.DocumentLibraries app start page, with a Document Template drop-down box that lists IT Document as a choice.](..\..\includes\media\d58b9d12-808e-4f2b-9065-31e6d735dbaa.png)When users choose  **Create**, the  **CreateLibrary_Click** method in Default.aspx.cs checks the selected default template and makes calls to either the **CreateITDocumentLibrary** or **CreateContosoDocumentLibrary** method in ContentTypeManager.cs, as shown in the following code.
+![Screenshot that shows the ECM.DocumentLibraries app start page, with a Document Template drop-down box that lists IT Document as a choice.](media/d58b9d12-808e-4f2b-9065-31e6d735dbaa.png)When users choose  **Create**, the  **CreateLibrary_Click** method in Default.aspx.cs checks the selected default template and makes calls to either the **CreateITDocumentLibrary** or **CreateContosoDocumentLibrary** method in ContentTypeManager.cs, as shown in the following code.
 
 
     
@@ -325,7 +325,7 @@ After you create the document library, go to the  **Library settings** on your d
 
 **Figure 2. Library settings applied by the app**
 
-![Screenshot of a Document Library Setting page, with Name, Web Address, and Description fields highlighted.](..\..\includes\media\aedf5107-bacb-4872-8ad4-8e66b1afead8.png)
+![Screenshot of a Document Library Setting page, with Name, Web Address, and Description fields highlighted.](media/aedf5107-bacb-4872-8ad4-8e66b1afead8.png)
 
 
 ## Additional resources

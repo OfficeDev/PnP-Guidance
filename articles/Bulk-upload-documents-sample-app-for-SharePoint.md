@@ -52,7 +52,7 @@ Before you run the code sample, do the following:
     
     **Figure 1. Setting OneDriveUploader.xml as a command-line argument in the project properties**
 
-    ![Screenshot of the Core.BulkDocumentUploader properties pane with Debug highlighted.](..\..\includes\media\f1d950b4-82be-4800-9ccc-07fa2c739fad.png)
+    ![Screenshot of the Core.BulkDocumentUploader properties pane with Debug highlighted.](media/f1d950b4-82be-4800-9ccc-07fa2c739fad.png)
 
 
 ## Using the Core.BulkDocumentUploader sample app

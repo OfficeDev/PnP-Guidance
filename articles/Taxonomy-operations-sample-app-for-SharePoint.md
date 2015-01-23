@@ -29,7 +29,7 @@ Before you run this app, you'll need:
     
     **Figure 1. Assigning permissions to the term store in the SharePoint admin center**
 
-    ![Screenshot of the SharePoint admin center with the term store, taxonomy term store search box, and term store administrators boxes highlighted.](..\..\includes\media\5a9d8c07-afce-4d9e-b0d1-10b28e089278.png)
+    ![Screenshot of the SharePoint admin center with the term store, taxonomy term store search box, and term store administrators boxes highlighted.](media/5a9d8c07-afce-4d9e-b0d1-10b28e089278.png)
     To assign permissions to the term store:
     
 
@@ -48,7 +48,7 @@ When you start the app, you see a console application similar to Figure 2. You a
 
 **Figure 2. Core.MMS console application**
 
-![Screenshot of the Core.MMS sample app console, prompting for the SharePoint user name and password.](..\..\includes\media\5ddaf3f1-2d7c-4818-9a9a-b0e905226db5.png)After you supply the SharePoint URL and your credentials, user authentication occurs. The following code performs user authentication in SharePoint Online.
+![Screenshot of the Core.MMS sample app console, prompting for the SharePoint user name and password.](media/5ddaf3f1-2d7c-4818-9a9a-b0e905226db5.png)After you supply the SharePoint URL and your credentials, user authentication occurs. The following code performs user authentication in SharePoint Online.
 
 
     
@@ -174,12 +174,12 @@ You will see your term data from your managed metadata service displayed in the 
 
 **Figure 3. Console application showing Groups, TermSets, and Terms in the managed metadata service**
 
-![Screenshot of the console application with term data output.](..\..\includes\media\a8907a10-8b4d-463f-89bc-811f9af4b34e.png)
+![Screenshot of the console application with term data output.](media/a8907a10-8b4d-463f-89bc-811f9af4b34e.png)
 
 
 **Figure 4. SharePoint admin center showing Groups, TermSets, and Terms in the managed metadata service**
 
-![Screenshot of the SharePoint admin center with the taxonomy term store expanded.](..\..\includes\media\9e623deb-569b-457a-ad1c-fa6d0d4d0a38.png)
+![Screenshot of the SharePoint admin center with the taxonomy term store expanded.](media/9e623deb-569b-457a-ad1c-fa6d0d4d0a38.png)
 
 
 ## Additional resources
