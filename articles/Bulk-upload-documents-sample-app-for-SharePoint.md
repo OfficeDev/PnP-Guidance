@@ -1,6 +1,3 @@
-Title: Bulk upload documents sample app for SharePointDescription: As part of your Enterprise Content Management (ECM) strategy, you can bulk upload documents to document libraries, including OneDrive for Business.
-ms.ContentId: 1ed6d253-a119-403d-aeaa-4f6a2a1dbef2
-
 
 # Bulk upload documents sample app for SharePoint
 As part of your Enterprise Content Management (ECM) strategy, you can bulk upload documents to document libraries, including OneDrive for Business.
@@ -9,7 +6,7 @@ As part of your Enterprise Content Management (ECM) strategy, you can bulk uploa
  _**Applies to:** Office 365 | SharePoint 2013 | SharePoint Online_
 
     
-
+The [Core.BulkDocumentUploader](https://github.com/OfficeDev/PnP/tree/master/Samples/Core.BulkDocumentUploader) sample shows you how to use REST APIs to upload documents to SharePoint document libraries, including OneDrive for Business.
     
 
 **Note**  The sample uploads one file to a document library. To upload multiple files, you'll need to extend the sample.
@@ -20,9 +17,7 @@ This app uses a console application to upload files by using REST API calls. Con
     
 - Migrate to Office 365 and use a custom migration tool to move your files.
     
- **Contribute to this content**
 
-    
 
 ## Before you begin
 <a name="sectionSection0"> </a>
@@ -228,7 +223,7 @@ public override void IterateCollection(Collection<string> entries, LogHelper log
 <a name="bk_addresources"> </a>
 
 
--  [Enterprise Content Management solutions for SharePoint 2013 and SharePoint Online](..\api\Enterprise-Content-Management-solutions-for-SharePoint-2013-and-SharePoint-Online.md)
+-  [Enterprise Content Management solutions for SharePoint 2013 and SharePoint Online](https://msdn.microsoft.com/en-us/library/dn904530(v=office.15).aspx)
     
 -  [Core.LargeFileUpload sample](https://github.com/OfficeDev/PnP/tree/master/Samples/Core.LargeFileUpload)
     
