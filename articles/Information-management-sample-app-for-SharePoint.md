@@ -15,7 +15,6 @@ The [Core.InformationManagement](https://github.com/OfficeDev/PnP/tree/dev/Scena
     
 - Create a custom expiration formula. 
     
-
 ## Before you begin
 <a name="sectionSection0"> </a>
 
