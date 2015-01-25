@@ -54,7 +54,7 @@ Before you run this app, do the following:
 
 ![Screenshot of the AppInv.aspx page, with the App ID and Permission Request XML boxes highlighted.](..\..\includes\media\d733e2b0-55f3-4aee-872b-49e7e2baf470.png)
 
-4. In the ECM.AutoTaggingWeb project, in the ReceiverHelper.cs file, in the  **CreateEventReciever** method, update the **ReceiverUrl** property with the URL of your Azure Web Site.
+4 - In the ECM.AutoTaggingWeb project, in the ReceiverHelper.cs file, in the  **CreateEventReciever** method, update the **ReceiverUrl** property with the URL of your Azure Web Site.
 
 ```C#
     public static EventReceiverDefinitionCreationInformation CreateEventReciever(string receiverName, EventReceiverType type)
@@ -71,7 +71,7 @@ Before you run this app, do the following:
 
 ```
 
-5. Package and deploy your app. 
+5 - Package and deploy your app. 
     
 When you start the app, the start page of the Document Autotagging provider-hosted app displays, as shown in Figure 2. The start page shows some additional configuration steps you need to perform before you assign or remove the event receivers. 
 
@@ -89,7 +89,9 @@ This sample uses a remote event receiver to automatically tag (add metadata to) 
 
 **Figure 3. Process flow for tagging documents in a document library by using a remote event receiver**
 
-![An illustration of the process for tagging a document in a library. When the user creates content, the app contacts the event receiver, which accesses the user's profile and submits information to SharePoint.](..\..\includes\media\430eee99-5ab9-49d8-8021-71d7cee79a73.png)To assign metadata to the newly created document in the document library by using a remote event receiver:
+![An illustration of the process for tagging a document in a library. When the user creates content, the app contacts the event receiver, which accesses the user's profile and submits information to SharePoint.](..\..\includes\media\430eee99-5ab9-49d8-8021-71d7cee79a73.png)
+
+To assign metadata to the newly created document in the document library by using a remote event receiver:
 
 
 
@@ -230,7 +232,9 @@ After this code runs, the AutoTaggingSampleItemAdding document library is create
 
 **Figure 4. AutoTaggingSampleItemAdding document library**
 
-![Screenshot shwoing the Site Contents page with the new AutoTaggingSampleItemAdd document library.](..\..\includes\media\8820a44f-8df8-4c80-aeaa-e50c37b8912c.png)In the ECM.AutoTaggingWeb project, in the ReceiverHelper.cs file, the  **CreateEventReciever** method creates the ItemAdding event receiver definition. In the ECM.AutoTaggingWeb project, the Services folder includes a web service called AutoTaggingService.svc. When you published the ECM.AutoTaggingWeb project to your Azure Web Site, this web service was also deployed to your site. The **CreateEventReciever** method assigns this web service as the remote event receiver on the document library. The following code from the **CreateEventReciever** method shows how to assign the web service to the remote event receiver.
+![Screenshot shwoing the Site Contents page with the new AutoTaggingSampleItemAdd document library.](..\..\includes\media\8820a44f-8df8-4c80-aeaa-e50c37b8912c.png)
+
+In the ECM.AutoTaggingWeb project, in the ReceiverHelper.cs file, the  **CreateEventReciever** method creates the ItemAdding event receiver definition. In the ECM.AutoTaggingWeb project, the Services folder includes a web service called AutoTaggingService.svc. When you published the ECM.AutoTaggingWeb project to your Azure Web Site, this web service was also deployed to your site. The **CreateEventReciever** method assigns this web service as the remote event receiver on the document library. The following code from the **CreateEventReciever** method shows how to assign the web service to the remote event receiver.
 
 
 
@@ -273,9 +277,12 @@ Now, the remote event receiver is added to the document library. When you upload
 **Figure 5. Viewing document properties**
 
 ![Screenshot of a test document in the library with the properties expanded.](..\..\includes\media\991dc064-1855-4897-a012-c56c0079131e.png)
+
 **Figure 6. Classification field in the document metadata**
 
-![Screenshot showing the metadata of the test document, with HBI in the Classification field.](..\..\includes\media\9dc5be77-70b3-400a-a636-f5fc2face335.png)The  **HandleAutoTaggingItemAdding** method, in the AutoTaggingService.svc.cs file, uses the **GetProfilePropertyFor** method to retrieve the value of the Classification user profile property.
+![Screenshot showing the metadata of the test document, with HBI in the Classification field.](..\..\includes\media\9dc5be77-70b3-400a-a636-f5fc2face335.png)
+
+The  **HandleAutoTaggingItemAdding** method, in the AutoTaggingService.svc.cs file, uses the **GetProfilePropertyFor** method to retrieve the value of the Classification user profile property.
 
 
 
