@@ -57,7 +57,7 @@ Before you run Scenario 3:
 
 **Figure 1. Navigating to a user's profile page by choosing About me**
 
-![Screenshot of the user's profile page with About me highlighted](..\images\692b9a82-45df-4c82-960b-42281be39f1c.png)
+![Screenshot of the user's profile page with About me highlighted](..\media\692b9a82-45df-4c82-960b-42281be39f1c.png)
 
 
 ## Using the UserProfile.Manipulation.CSOM app
@@ -68,7 +68,7 @@ When you run this sample, a provider-hosted app starts, as shown in Figure 2.
 
 **Figure 2. Start page of the UserProfile.Manipulation.CSOM app**
 
-![Screenshot of the start page of the UserProfile.Manipulation.CSOM app](..\images\ec62daf7-1323-4a12-b2c4-a95e0312c58f.png)
+![Screenshot of the start page of the UserProfile.Manipulation.CSOM app](..\media\ec62daf7-1323-4a12-b2c4-a95e0312c58f.png)
 
 This code sample includes three scenarios.
 
@@ -82,7 +82,7 @@ When you choose  **Run scenario 1**, the app reads all user profile properties f
 
 **Figure 3. Current user's profile properties data**
 
-![Screenshot of the current user's profile properties data](..\images\012475be-21d7-48b1-bce2-1e863e025c0d.png)
+![Screenshot of the current user's profile properties data](..\media\012475be-21d7-48b1-bce2-1e863e025c0d.png)
 
 Choosing  **Run scenario 1** calls the **btnScenario1_Click** method in CodeSample1.aspx.cs to perform the following tasks:
 
@@ -132,11 +132,11 @@ Scenario 2 shows how to update a single-valued user profile property. As shown i
 
 **Figure 4. Scenario 2 start page**
 
-![Screenshot of the start page for Scenario 2](..\images\ca229e30-e418-4701-a991-cf669cbc7483.png)
+![Screenshot of the start page for Scenario 2](..\media\ca229e30-e418-4701-a991-cf669cbc7483.png)
 
 **Figure 5. Updated About me user profile property**
 
-![Screenshot of the updated About Me user profile property](..\images\9ffc34d9-b9b5-481c-8b63-fa28bc883d04.png)
+![Screenshot of the updated About Me user profile property](..\media\9ffc34d9-b9b5-481c-8b63-fa28bc883d04.png)
 
 Choosing  **Run scenario 2** calls the **btnScenario2_Click** method in CodeSample2.aspx.cs to do the following:
 
@@ -194,7 +194,7 @@ Scenario 3 shows how to update a multivalued user profile property. Figure 6 sho
 
 **Figure 6. Scenario 3 start page**
 
-![Screenshot of the start page for Scenario 3](..\images\30926c45-3ecc-4c7d-bc27-d896fc6136b2.png)
+![Screenshot of the start page for Scenario 3](..\media\30926c45-3ecc-4c7d-bc27-d896fc6136b2.png)
 
 To add new skills to the SPS-Skills user profile property from this app:
 

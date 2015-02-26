@@ -68,15 +68,15 @@ Before you run this code sample, configure the language settings on your site, a
 
 **Figure 1. Setting the language for a site**
 
-![Screenshot of the Language Settings page of Site Settings](..\images\0265dd57-cf25-4879-a6df-68072ffa5270.png)
+![Screenshot of the Language Settings page of Site Settings](..\media\0265dd57-cf25-4879-a6df-68072ffa5270.png)
 
 **Figure 2. Navigating to a user's profile page by choosing About me**
 
-![Screenshot of the user profile page with About me highlighted](..\images\e3971203-7011-40ad-ab1b-341af2df28fc.png)
+![Screenshot of the user profile page with About me highlighted](..\media\e3971203-7011-40ad-ab1b-341af2df28fc.png)
 
 **Figure 3. Changing a user's display language settings on the user's profile page**
 
-![Screenshot of the Language and Region section of the Edit Details page](..\images\ff41b24e-42eb-48ca-83cd-00d88ef753bd.png)
+![Screenshot of the Language and Region section of the Edit Details page](..\media\ff41b24e-42eb-48ca-83cd-00d88ef753bd.png)
 
 Before you run  [Scenario 2](6786c43a-8d9e-4a51-90c2-999fcffe4295.md#bk_Scenario2) of this code sample, complete the following tasks.
 
@@ -97,7 +97,7 @@ Before you run  [Scenario 2](6786c43a-8d9e-4a51-90c2-999fcffe4295.md#bk_Scenario
 
 **Figure 4. Adding a link to the Quick Launch**
 
-![Screenshot of the EDIT LINKS page, with link highlighted](..\images\fcb28647-1576-4e86-8ca7-15f3ce8d85fb.png)
+![Screenshot of the EDIT LINKS page, with link highlighted](..\media\fcb28647-1576-4e86-8ca7-15f3ce8d85fb.png)
 ### To create a site page
 
 
@@ -120,7 +120,7 @@ When you run this code sample, a provider-hosted application appears, as shown i
 
 **Figure 5. Start page of the Core.JavaScriptCustomization app**
 
-![Screenshot showing the Start page of the Core.JavaScriptCustomization app](..\images\133a6c15-7b96-4418-b795-a7bdab63ead4.png)
+![Screenshot showing the Start page of the Core.JavaScriptCustomization app](..\media\133a6c15-7b96-4418-b795-a7bdab63ead4.png)
 ### Scenario 1
 
 Scenario 1 shows how to add a reference to a JavaScript file on a SharePoint site using a custom action. Choosing the  **Inject customization** button calls the **btnSubmit_Click** method in scenario1.aspx.cs. The **btnSubmit_Click** method calls **AddJsLink** to add references to JavaScript files using a custom action on the host web.
@@ -130,7 +130,7 @@ Figure 6 shows the start page for Scenario 1.
 
 **Figure 6. Scenario 1 start page**
 
-![Screenshot of the start page for Scenario 1](..\images\16972165-5f94-497f-b58c-0e1075d9616a.png)
+![Screenshot of the start page for Scenario 1](..\media\16972165-5f94-497f-b58c-0e1075d9616a.png)
 
 The  **AddJSLink** method is part of the JavaScriptExtensions.cs file in **OfficeDevPnP.Core**.  **AddJSLink** requires that you supply a string representing the identifier to assign to the custom action, and a string containing a semicolon delimited list of URLs to the JavaScript files that you want to add to the host web. Note that this code sample adds a reference to Scripts\scenario1.js, which adds a status bar message to the host web.
 
@@ -193,7 +193,7 @@ Choose  **Back to Site**. As shown in Figure 7, the host web now displays a stat
 
 **Figure 7. Status bar message added to a team site using JavaScript**
 
-![Screenshot of the status bar message added to a team site by using JavaScript](..\images\c5d6fb6d-f05f-49aa-a3c5-af1240ee9135.png)
+![Screenshot of the status bar message added to a team site by using JavaScript](..\media\c5d6fb6d-f05f-49aa-a3c5-af1240ee9135.png)
 
 
 ### Scenario 2
@@ -204,7 +204,7 @@ Scenario 2 uses the technique described in Scenario 1 to replace UI text with tr
 
 **Figure 8. Scenario 2 start page**
 
-![Screenshot of the start page for Scenario 2](..\images\c706060b-e77d-4ae6-99c4-43dee80ff7d3.png)
+![Screenshot of the start page for Scenario 2](..\media\c706060b-e77d-4ae6-99c4-43dee80ff7d3.png)
 
 As shown in Figure 8, choosing  **Inject customization** applies the following changes to the site:
 
@@ -217,7 +217,7 @@ As shown in Figure 8, choosing  **Inject customization** applies the following c
 
 **Figure 9. Scenario 2 customizations**
 
-![Scenario 2 customizations](..\images\47e8ec40-d291-496f-8677-01eb46441df2.png)
+![Scenario 2 customizations](..\media\47e8ec40-d291-496f-8677-01eb46441df2.png)
     
 **Note**  If your values for the Quick Launch link title and site page title differ from those shown in Figure 8, edit the  **quickLauch_Scenario2** and **pageTitle_HelloSharePoint** variables in the JavaScript resource files scenario2.en-us.js or scenario2.nl-nl.js. Then run the code sample again. The scenario2.en-us.js file stores English (US) culture-specific resources. The scenario2.nl-nl.js file stores Dutch culture-specific resources. If you are testing this code sample using another language, consider creating another JavaScript resource file using the same naming convention.
 

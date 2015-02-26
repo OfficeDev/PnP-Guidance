@@ -24,7 +24,7 @@ When you run this code sample, a provider-hosted app appears, as shown in Figure
 
 **Figure 1. Screen shot of Core.EmbedJavaScript app start page**
 
-![Screenshot of the Start page of the Embed JavaScript sample](..\images\bdbf1df9-5027-4c6c-8ae9-152747fbbc1c.png)
+![Screenshot of the Start page of the Embed JavaScript sample](..\media\bdbf1df9-5027-4c6c-8ae9-152747fbbc1c.png)
 
 Choosing  **Embed customization** customizes the SharePoint site by:
 
@@ -37,12 +37,12 @@ Choosing  **Embed customization** customizes the SharePoint site by:
 
 **Figure 2. Screen shot of status bar added to all pages**
 
-![Status bar added to all SharePoint site pages](..\images\ccae4093-4640-4339-a5f2-1df66c117cdc.png)
+![Status bar added to all SharePoint site pages](..\media\ccae4093-4640-4339-a5f2-1df66c117cdc.png)
 
 
 **Figure 3. Screen shot of new subsite link removed from the Site Contents page**
 
-![The new subsite link on Site Contents is removed.](..\images\0631ce39-76e8-446a-b628-f41c2a066e4c.png)
+![The new subsite link on Site Contents is removed.](..\media\0631ce39-76e8-446a-b628-f41c2a066e4c.png)
 
 In Figure 1, choosing  **Embed customization** calls **btnSubmit_Click** in default.aspx. **btnSubmit_Click** calls **AddJsLink**, which does the following:
 

@@ -38,14 +38,14 @@ When you run this code sample, a provider-hosted application appears, as shown i
 
 **Figure 1. Start page of the Search.PersonalizedResults app**
 
-![Screenshot that shows the start page of the Search.PersonalizedResults app](..\images\d5df9bb4-fa11-4bd6-91fd-c4d339687a8a.png)
+![Screenshot that shows the start page of the Search.PersonalizedResults app](..\media\d5df9bb4-fa11-4bd6-91fd-c4d339687a8a.png)
 
 This article describes the  **Perform personalized search of all site templates using profile data** scenario. Choosing **Perform Personalized Search** returns filtered search results that contain team sites only, as shown in Figure 2. Notice that the **Template** column contains sites of type **STS** only.
 
 
 **Figure 2. Search results showing team sites only**
 
-![Screenshot of the earch results showing team sites only](..\images\dde71d9f-a296-4bee-b48b-964f81193404.png)
+![Screenshot of the earch results showing team sites only](..\media\dde71d9f-a296-4bee-b48b-964f81193404.png)
 
 For handling personalization scenarios, you can change the search query by:
 
@@ -70,14 +70,14 @@ For handling personalization scenarios, you can change the search query by:
 
 **Figure 3. Navigating to a user's profile page by choosing About me**
 
-![Screenshot of the user profile page with About me highlighted.](..\images\a7eccfcd-68f7-44b9-8f32-14a0d2f60398.png)
+![Screenshot of the user profile page with About me highlighted.](..\media\a7eccfcd-68f7-44b9-8f32-14a0d2f60398.png)
 
 Return to the  **Search.PersonalizedResults** provider-hosted app and choose **Perform Personalized Search** again. The app changes the filter on the search query to show all sites instead of team sites only, as shown in Figure 4. The **Template** column now contains several different site template types.
 
 
 **Figure 4. Search results showing all sites**
 
-![Screenshot of search results showing all sites](..\images\3af49550-cd2d-4e7e-af1d-5227a5603730.png)
+![Screenshot of search results showing all sites](..\media\3af49550-cd2d-4e7e-af1d-5227a5603730.png)
 
 Choosing  **Perform Personalized Search** calls the **btnPersonalizedSearch_Click** method in default.aspx.cs. **btnPersonalizedSearch_Click** performs the following actions:
 

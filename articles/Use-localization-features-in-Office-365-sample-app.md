@@ -53,15 +53,15 @@ Before you run this code sample:
 
 **Figure 1. Language settings for a site**
 
-![Screenshot that shows the language settings for a site.](..\images\ffe149ae-17ab-4c55-a611-d47f4eb88c4e.png)
+![Screenshot that shows the language settings for a site.](..\media\ffe149ae-17ab-4c55-a611-d47f4eb88c4e.png)
 
 **Figure 2. Navigating to a user's profile page by choosing About me**
 
-![Screenshot of the user profile page with About me highlighted](..\images\764b2ac2-155b-4ce9-b8eb-3ae04ad26593.png)
+![Screenshot of the user profile page with About me highlighted](..\media\764b2ac2-155b-4ce9-b8eb-3ae04ad26593.png)
 
 **Figure 3. Changing a user's display language settings on the user's profile page**
 
-![Screenshot of the Language and Region section of the user's profile page](..\images\ae5f565d-c932-43dd-9dc3-87630cee3692.png)
+![Screenshot of the Language and Region section of the user's profile page](..\media\ae5f565d-c932-43dd-9dc3-87630cee3692.png)
 
 
 ## Using the Core.CreateContentTypes sample app
@@ -81,7 +81,7 @@ When you run this code sample, a console application displays, as shown in Figur
 
 **Figure 4. Core.CreateContentTypes console application**
 
-![Screenshot of the Core.CreateContentTypes console application](..\images\ee806481-0089-4c65-8f8b-027bfff6ddb9.png)
+![Screenshot of the Core.CreateContentTypes console application](..\media\ee806481-0089-4c65-8f8b-027bfff6ddb9.png)
 
 The  **Main** method then calls the **LocalizeSiteAndList** and **LocalizeContentTypeAndField** methods. The **LocalizeSiteAndList** method shows you how to do the following:
 
@@ -175,7 +175,7 @@ As shown in Figure 5, your site displays your custom French title  **Hello World
 
 **Figure 5. Customized page title updated by the LocalizeSiteAndList method**
 
-![Screenshot of the updated customized page title](..\images\14471283-f7b6-49ca-a507-a3e28e43ee22.png)
+![Screenshot of the updated customized page title](..\media\14471283-f7b6-49ca-a507-a3e28e43ee22.png)
 
 
 ## Additional resources
