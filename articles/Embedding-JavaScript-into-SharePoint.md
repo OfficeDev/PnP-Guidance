@@ -51,3 +51,33 @@ MySolution.MyClass1.myFunction2();
 ```
 
 Because all your code uses the custom *MySolution* namespace, you can avoid any naming conflicts.
+
+## Minimal Download Strategy
+
+When MDS is enabled it will clear out all global Namespaces on navigation.
+
+To retain your Namespace,
+
+instead of declaring it as:
+
+```JavaScript
+var MySolution = MySolution || {};
+```
+
+declare your Namespace as:
+
+```JavaScript
+    Type.registerNamespace('MySolution');
+```
+
+The ``Type`` Namespace is SharePoint specific and not available in the New OD4B Document Library View
+
+If you want your Namespace declared for any environment, use:
+
+```JavaScript
+if (window.hasOwnProperty('Type')) {
+    Type.registerNamespace('MySolution');
+} else {
+    window.MySolution = window.MySolution || {};
+}
+```
