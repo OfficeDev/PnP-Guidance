@@ -11,7 +11,6 @@ In Visual Studio, you navigate to Debug, start debugging and receive a message t
 
 
 ## Steps 
-
 ### Step 1: Create a new service principal
 Navigate to a site collection in your tenant and generate a new client Id and Secret. (E.g https://contoso.sharepoint.com/_layouts/15/appregnew.aspx). In this page click Generate for both the Client Id, Client Secret Fields and supply the remaining fields. While you are developing the add-in ensure you use localhost.com including the port as the App Domain. You should have something similar as below.
 
