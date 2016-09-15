@@ -26,7 +26,7 @@ Navigate to your SharePoint Admin Center (E.g https://contoso-admin.sharepoint.c
 
 
 ### Step 3: Update your manifest and web.config
-In your Visual Studio solution now update your manifest and web.config with the client id that you created in step 1.
+In your Visual Studio solution, update your manifest and web.config with the client id that you created in step 1.
 ![](http://i.imgur.com/fKkLIde.png)
 
 
