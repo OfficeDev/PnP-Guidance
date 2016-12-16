@@ -34,7 +34,7 @@ MySolution.MyClass1 = (function () {
         // public interface
         myFunction1: function() {
           return privateVar1;
-        }
+        },
         myFunction2: function(){
           return privateVar2;
         }
