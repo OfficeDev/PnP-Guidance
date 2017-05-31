@@ -13,7 +13,7 @@ This article concentrates on the available extensibility options within "modern"
 
 - New capabilities in SharePoint Online team sites including integration with Office 365 Groups: https://blogs.office.com/2016/08/31/new-capabilities-in-sharepoint-online-team-sites-including-integration-with-office-365-groups
 - Create connected SharePoint Online team sites in seconds: https://blogs.office.com/2016/11/08/create-connected-sharepoint-online-team-sites-in-seconds
-- [Turn scripting capabilities on or off](https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f) - Notice that you cannot enable scripting capabilities in the "modern" team sites, but this article defines the features, which are affected when scripting is disabled
+- [Turn scripting capabilities on or off](https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f)
 
 >**Important:** 
 We're not deprecating the "classic" experience, both "classic" and "modern" will coexist.
@@ -32,7 +32,7 @@ _**Applies to:** SharePoint Online_
 - Site configurations, like regional settings, languages and auditing settings
 
 > **Note:**
-> You can apply a custom theme, but you cannot introduce a custom theme to the theme gallery as an option for end users.
+> By default a "modern" team site has scripting capabilities turned off. You can still apply a custom theme, but you cannot introduce a custom theme to the theme gallery as an option for end users. If you want to add a theme to the theme gallery you need to [enable scripting](https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f) on the site.
 
 ### What's not supported with "modern" team sites?
 <a name="notsupported"> </a>
@@ -116,6 +116,7 @@ $web.Context.ExecuteQuery()
 > **Note:**
 > - You can use [SharePoint Color Palette Tool](https://www.microsoft.com/en-us/download/details.aspx?id=38182) to create a custom theme file (.spcolor) with the custom color definition. In general, modern team sites try to preserve the feel of the theme by automatically converting classic site theming elements to the modern side. Preserved areas are background image and the following theme slots: ContentAccent1, PageBackground, and BackgroundOverlay.
 > - You can change the logo of "modern" team site by using the Groups Graph API as shown by the SharePoint [PnP UpdateUnifiedGroup method](https://github.com/SharePoint/PnP-Sites-Core/blob/master/Core/OfficeDevPnP.Core/Framework/Graph/UnifiedGroupsUtility.cs#L350)
+> - Applying a custom theme to a modern team site can cause timeouts. The resolution to this is to turn off all available [user interface languages](https://support.office.com/en-us/article/Choose-the-languages-you-want-to-make-available-for-a-site-s-user-interface-16d3a83c-05ab-4b50-8fbb-ff576a3351e8) for the site before applying the theme. Then turn them back on afterwards.
 
 ## How to determine if a site is a "modern" team site?
 <a name="sectionSection1"> </a>
@@ -132,18 +133,9 @@ Since there's no direct property to check if the scripting is enabled or not, yo
 /// <returns>True if no scripting is enabled, False if it's not</returns>
 public static bool IsNoScriptSite(Web web)
 {
-    // Array if there will be more of these specific tempates 
-    string[] NoScriptSiteTemplates = new string[] { "GROUP" };
-
     // Ensure that we have the needed properties - Notice that these are 
     // PnP CSOM extension capabilities
     web.EnsureProperties(w => w.WebTemplate, w => w.EffectiveBasePermissions);
-
-    // If we know that template is no script site
-    if (NoScriptSiteTemplates.Contains(web.WebTemplate))
-    {
-        return true;
-    }
 
     // Definition of no-script is not having the AddAndCustomizePages permission
     if (!web.EffectiveBasePermissions.Has(PermissionKind.AddAndCustomizePages))
