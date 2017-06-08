@@ -20,7 +20,7 @@ To use Windows PowerShell scripts with the provisioning engine, you first must d
 
 **Note:**  The SharePointPnP.PowerShell Commands repository contains three versions of the Windows PowerShell commands MSI. Two are for on-premises use (one for SharePoint 2013 and one for SharePoint 2016), and the third one is for SharePoint Online.
 
-The SahrePointPnP.PowerShell Commands repository contains contents that enable you to build a library of Windows PowerShell commands that target SharePoint Online. The commands use CSOM and can work against both SharePoint Online and SharePoint on-premises, depending on which MSI package you install.
+The SharePoint.PowerShell Commands repository contains contents that enable you to build a library of Windows PowerShell commands that target SharePoint Online. The commands use CSOM and can work against both SharePoint Online and SharePoint on-premises, depending on which MSI package you install.
 
 Additionally, there is a short [Channel 9](https://channel9.msdn.com/) video&mdash;Introduction to [PnP PowerShell Cmdlets](https://channel9.msdn.com/blogs/OfficeDevPnP/Introduction-to-PnP-PowerShell-Cmdlets)&mdash;that discusses installing the Windows PowerShell package and connecting to your Office 365 site. Besides installation and connection activities, the video covers other valuable information about using Windows PowerShell for remote provisioning.
 
